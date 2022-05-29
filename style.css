@@ -41,10 +41,12 @@
   margin: 0;
   padding: 0px;
 }
-.todo-list-item, h3 {
+.todo-list-item, 
+.title {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
 }
 button {
@@ -71,6 +73,18 @@ label[for="new-task"] {
   text-transform: uppercase;
 }
 input[type="text"] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #dDd;
+  background: #FFF;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+.input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -141,11 +155,11 @@ input#new-task {
   display: none;
 }
 
-.todo-list .todo-list-item .edit-mode input[type=text] {
+.todo-list .edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.todo-list .todo-list-item .edit-mode label {
+.todo-list .edit-mode label {
   display: none;
 }
