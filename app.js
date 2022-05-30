@@ -35,6 +35,7 @@ var createNewTaskElement=function(taskString){
     var deleteButtonImg=document.createElement("img");//delete button image
     deleteButton.classList.add('remove-button');
     deleteButtonImg.classList.add('remove-button');
+    deleteButtonImg.alt='delete button'
     checkBox.classList.add('input-checkbox');
 
     label.innerText=taskString;
